@@ -1,6 +1,6 @@
 # NuGet packages
 
-Containes two class project for source to two NuGet packages.
+Containes two class project for source for two NuGet packages.
 
 Each project has details on usage.
 
