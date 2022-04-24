@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<LangVersion>9.0</LangVersion>
@@ -7,6 +7,16 @@
 		<PackageIconUrl />
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<Authors></Authors>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Description>Provides methods for connecting to SQL-Server databases for EF Core 5.x</Description>
+		<Copyright>Karen Payne 2022</Copyright>
+		<RepositoryUrl>https://github.com/karenpayneoregon/configurations-package</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/karenpayneoregon/configurations-package/tree/master/EntityFrameworkCoreHelpers</PackageProjectUrl>
+		<PackageReleaseNotes>Added overload for logging to user define file.</PackageReleaseNotes>
+		<AssemblyVersion>1.0.0.1</AssemblyVersion>
+		<FileVersion>1.0.0.1</FileVersion>
+		<Version>1.0.1</Version>
 	</PropertyGroup>
 
 	<ItemGroup>

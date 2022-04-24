@@ -13,6 +13,10 @@
 		<AssemblyVersion>1.0.1.1</AssemblyVersion>
 		<FileVersion>1.0.1.1</FileVersion>
 		<Version>1.0.1</Version>
+		<PackageProjectUrl>https://github.com/karenpayneoregon/configurations-package/tree/master/ConfigurationLibrary</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/karenpayneoregon/configurations-package</RepositoryUrl>
+		<PackageTags>csharp;appsettings.json;ef-core</PackageTags>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 	</PropertyGroup>
 
 	<ItemGroup>

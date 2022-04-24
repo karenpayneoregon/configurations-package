@@ -25,7 +25,7 @@ namespace ShadowProperties.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                DbContextConnections.CustomLogging(optionsBuilder);
+                DbContextConnections.NoLogging(optionsBuilder);
             }
         }
 

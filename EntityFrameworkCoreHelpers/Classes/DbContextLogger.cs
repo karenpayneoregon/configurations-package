@@ -8,7 +8,17 @@ namespace EntityFrameworkCoreHelpers.Classes
     /// </summary>
     public class DbContextLogger
     {
-        private readonly string fileName = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Logs", "Log.txt");
+        private string _fileName = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Logs", "Log.txt");
+
+        public DbContextLogger(string fileName)
+        {
+            _fileName = fileName;
+        }
+
+        public DbContextLogger()
+        {
+            
+        }
         /// <summary>
         /// append to the existing stream
         /// </summary>
@@ -16,12 +26,12 @@ namespace EntityFrameworkCoreHelpers.Classes
         public void Log(string message)
         {
             
-            if (!File.Exists(fileName))
+            if (!File.Exists(_fileName))
             {
-                File.CreateText(fileName).Close();
+                File.CreateText(_fileName).Close();
             }
 
-            StreamWriter streamWriter = new(fileName, true);
+            StreamWriter streamWriter = new(_fileName, true);
 
             streamWriter.WriteLine(message);
 

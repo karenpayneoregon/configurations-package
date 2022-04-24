@@ -74,3 +74,9 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 **Basic usage**
 
 Set connection strings in `appsettings.json` and copy `appsettings.json` to the application folder followed by using `ConfigurationHelper.ConnectionString()` to set a connection string.
+
+# Inspired by
+
+An earlier repository I wrote on connection to databases.
+
+[Working with multiple environments for connection strings](https://github.com/karenpayneoregon/configuration-helpers)

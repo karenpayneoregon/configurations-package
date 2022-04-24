@@ -39,5 +39,19 @@ namespace EntityFrameworkCoreHelpers.Classes
                 .EnableSensitiveDataLogging()
                 .EnableDetailedErrors();
         }
+
+        /// <summary>
+        /// Writes/appends to a file
+        /// </summary>
+        /// <param name="optionsBuilder"></param>
+        /// <param name="fileName">File name to write log data too</param>
+        public static void CustomLogging(DbContextOptionsBuilder optionsBuilder, string fileName)
+        {
+            optionsBuilder.UseSqlServer(ConfigurationHelper.ConnectionString())
+                .EnableSensitiveDataLogging()
+                .LogTo(new DbContextLogger(fileName).Log)
+                .EnableSensitiveDataLogging()
+                .EnableDetailedErrors();
+        }
     }
 }
