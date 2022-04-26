@@ -1,4 +1,4 @@
-﻿# About
+﻿# Connection helpers for data providers
 
 ![Configuration](assets/configuration.png)
 

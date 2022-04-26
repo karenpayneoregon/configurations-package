@@ -1,4 +1,4 @@
-# NuGet packages
+# Entity Framework Core NuGet package for connections
 
 Containes two class project for source for two NuGet packages.
 

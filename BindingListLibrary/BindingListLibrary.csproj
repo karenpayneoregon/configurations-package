@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <LangVersion>9.0</LangVersion>
+	  <TargetFramework>net5.0-windows</TargetFramework>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	  <Authors>Karen Payne</Authors>
+	  <Description>Provides a BindingList with AddRange method</Description>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <Copyright>Karen Payne 2022</Copyright>
+	  <RepositoryUrl>https://github.com/karenpayneoregon/configurations-package</RepositoryUrl>
+	  <PackageIcon>BindingListAdd.png</PackageIcon>
+	  <PackageIconUrl />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="assets\BindingListAdd.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
