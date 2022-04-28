@@ -2,8 +2,7 @@
 
 Provides the following methods for connecting to a SQL-Server database.
 
-## Note
-
+# Usage
 Place the following appsettings.json file into a project, set to copy if newer
 
 1. Populate each environment with appropriate connection strings.
