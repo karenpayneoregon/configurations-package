@@ -4,8 +4,6 @@ Provides the following methods for connecting to a SQL-Server database.
 
 ## Note
 
-Current uses `Microsoft.EntityFrameworkCore.SqlServer` version 5.0.9, next release will accept higher releases of this package.
-
 Place the following appsettings.json file into a project, set to copy if newer
 
 1. Populate each environment with appropriate connection strings.
