@@ -4,6 +4,8 @@ This folder contains methods to connect to a database with options to log inform
 
 All connections are read from an `appsettings.json` file as per below.
 
+Works with desktop projects.
+
 ```json
 {
   "ConnectionStrings": {
@@ -33,7 +35,7 @@ All connections are read from an `appsettings.json` file as per below.
 
 An environment is set on each server e.g. development, staging, production for `ASPNETCORE_ENVIRONMENT` or our own variable as per below for each server.
 
-![image](../../assets/serverEnvironment.png)
+
 
 In ASP.NET Core [the configuration](https://docs.microsoft.com/en-us/ef/core/miscellaneous/connection-strings#aspnet-core) system is very flexible, and the connection string could be stored in appsettings.json, an environment variable, the user secret store, or another configuration source
 
