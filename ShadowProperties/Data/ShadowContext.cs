@@ -9,8 +9,15 @@ namespace ShadowProperties.Data
 {
     public partial class ShadowContext : DbContext
     {
+        private bool _ShowDeleted;
+
+        public ShadowContext(bool showDeleted)
+        {
+            _ShowDeleted = showDeleted;
+        }
         public ShadowContext()
         {
+            _ShowDeleted = false;
         }
 
         public ShadowContext(DbContextOptions<ShadowContext> options)
@@ -42,7 +49,6 @@ namespace ShadowProperties.Data
             modelBuilder.Entity<Contact1>().Property<string>("CreatedBy");
             modelBuilder.Entity<Contact1>().Property<bool>("isDeleted");
 
-
             modelBuilder.Entity<Contact>(entity => entity.HasKey(e => e.ContactId));
             modelBuilder.Entity<Contact1>(entity => entity.HasKey(e => e.ContactId));
 
@@ -51,8 +57,8 @@ namespace ShadowProperties.Data
              * Since IsDeleted is not in the model the string name is used.
              */
             modelBuilder.Entity<Contact1>()
-                .HasQueryFilter(m =>
-                    EF.Property<bool>(m, "isDeleted") == false);
+                .HasQueryFilter(contact =>
+                    EF.Property<bool>(contact, "isDeleted") == _ShowDeleted);
 
             OnModelCreatingPartial(modelBuilder);
 

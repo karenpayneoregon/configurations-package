@@ -25,6 +25,8 @@ namespace ShadowPropertiesUnitTestProject
         {
             var filters = await BogusOperations.WithFilter();
             Check.That(filters.Count).Equals(8);
+
+            Console.WriteLine(filters.Count);
         }
 
         [TestMethod]
