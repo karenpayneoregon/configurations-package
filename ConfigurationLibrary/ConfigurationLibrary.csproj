@@ -10,13 +10,17 @@
 		<PackageIcon>configuration.png</PackageIcon>
 		<PackageIconUrl />
 		<Company>Karen Payne</Company>
-		<AssemblyVersion>1.0.1.1</AssemblyVersion>
-		<FileVersion>1.0.1.1</FileVersion>
-		<Version>1.0.1</Version>
+		<AssemblyVersion>1.0.1.2</AssemblyVersion>
+		<FileVersion>1.0.1.2</FileVersion>
+		<Version>1.0.2</Version>
 		<PackageProjectUrl>https://github.com/karenpayneoregon/configurations-package/tree/master/ConfigurationLibrary</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/karenpayneoregon/configurations-package</RepositoryUrl>
 		<PackageTags>csharp;appsettings.json;ef-core</PackageTags>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<Title>Configuration library for reading connection string from appsettings.json for web or desktop</Title>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<RepositoryType>git</RepositoryType>
+		<PackageReleaseNotes>Added methods to ASP.NET Core</PackageReleaseNotes>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -31,6 +35,13 @@
 	  <None Include="assets\configuration.png">
 	    <Pack>True</Pack>
 	    <PackagePath></PackagePath>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="readme.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
 	  </None>
 	</ItemGroup>
 </Project>
