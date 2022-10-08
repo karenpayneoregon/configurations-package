@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.3.32825.248
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigurationLibrary", "ConfigurationLibrary\ConfigurationLibrary.csproj", "{97C54D8B-341D-4348-9775-DB27E742DF7B}"
 EndProject
@@ -30,9 +30,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindingListExample", "Bindi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HasQueryFilterApp", "HasQueryFilterApp\HasQueryFilterApp.csproj", "{CA8DE9CE-495E-4AD3-97C7-D5991E13EB7D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleConnectionConsoleApp", "SimpleConnectionConsoleApp\SimpleConnectionConsoleApp.csproj", "{8A1D6475-AB4E-4D71-9459-EFA1F18A8ECE}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{DD52B48D-D166-4873-BE1F-2D782A98E071}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleConnectionConsoleApp", "SimpleConnectionConsoleApp\SimpleConnectionConsoleApp.csproj", "{8A1D6475-AB4E-4D71-9459-EFA1F18A8ECE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -72,10 +70,6 @@ Global
 		{8A1D6475-AB4E-4D71-9459-EFA1F18A8ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A1D6475-AB4E-4D71-9459-EFA1F18A8ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A1D6475-AB4E-4D71-9459-EFA1F18A8ECE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD52B48D-D166-4873-BE1F-2D782A98E071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD52B48D-D166-4873-BE1F-2D782A98E071}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD52B48D-D166-4873-BE1F-2D782A98E071}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD52B48D-D166-4873-BE1F-2D782A98E071}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,7 +85,6 @@ Global
 		{B65DE703-A39C-4A3A-8639-E7F62E46E45B} = {90515226-6741-4A32-9AA5-940A601D522E}
 		{CA8DE9CE-495E-4AD3-97C7-D5991E13EB7D} = {DEED1AC3-881F-42E4-9659-88360AF300E9}
 		{8A1D6475-AB4E-4D71-9459-EFA1F18A8ECE} = {DEED1AC3-881F-42E4-9659-88360AF300E9}
-		{DD52B48D-D166-4873-BE1F-2D782A98E071} = {DEED1AC3-881F-42E4-9659-88360AF300E9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {183EA057-FDCB-46BB-B91A-5959023C5A13}
