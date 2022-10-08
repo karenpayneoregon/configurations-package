@@ -7,7 +7,7 @@ namespace SimpleConnectionConsoleApp
     {
         static void Main(string[] args)
         {
-            var connectionString = ConfigurationHelper.ConnectionString();
+            var connectionString = ConfigurationHelper.ConnectionStringWeb();
             Console.WriteLine(connectionString);
             Console.ReadLine();
         }

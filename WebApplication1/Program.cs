@@ -14,7 +14,7 @@ namespace WebApplication1
             builder.Services.AddRazorPages();
 
             builder.Services.AddDbContext<PizzaContext>(options =>
-                options.UseSqlServer(ConfigurationHelper.ConnectionString()));
+                options.UseSqlServer(ConfigurationHelper.ConnectionStringWeb()));
 
             var app = builder.Build();
             // Configure the HTTP request pipeline.
