@@ -1,14 +1,17 @@
 ﻿using System;
+using System.Threading.Tasks;
 using ConfigurationLibrary.Classes;
+using Microsoft.Data.SqlClient;
 
 namespace SimpleConnectionConsoleApp
 {
     partial class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            var connectionString = ConfigurationHelper.ConnectionStringWeb();
-            Console.WriteLine(connectionString);
+            await using var cn = new SqlConnection(ConfigurationHelper.ConnectionString());
+            await cn.OpenAsync();
+            Console.WriteLine("Done");
             Console.ReadLine();
         }
     }
