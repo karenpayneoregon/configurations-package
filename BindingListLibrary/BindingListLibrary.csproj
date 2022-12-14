@@ -1,8 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	  <LangVersion>9.0</LangVersion>
-	  <TargetFramework>net5.0-windows</TargetFramework>
+	  <!--<LangVersion>9.0</LangVersion>
+	  <TargetFramework>net5.0-windows</TargetFramework>-->
+	  <TargetFramework>net7.0-windows</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>disable</Nullable>
+	  <UseWindowsForms>true</UseWindowsForms>
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 	  <Authors>Karen Payne</Authors>

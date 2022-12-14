@@ -33,7 +33,7 @@ namespace BindingListExample
             ShowPersonInformation();
         }
 
-        private void PeopleListBoxOnSelectedIndexChanged(object? sender, EventArgs e)
+        private void PeopleListBoxOnSelectedIndexChanged(object sender, EventArgs e)
         {
             ShowPersonInformation();
         }

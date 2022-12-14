@@ -4,6 +4,8 @@
 
 Containes two class project for source for two NuGet packages.
 
+:green_circle: Updated to .NET Core 7 12/14/2022 from .NET Core 4
+
 Each project has details on usage.
 
 - [ConfigurationLibrary](https://www.nuget.org/packages/ConfigurationLibrary/)

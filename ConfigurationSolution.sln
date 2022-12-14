@@ -34,6 +34,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleConnectionConsoleApp"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{620E5C72-2462-4C44-8ACF-A5FA36F5CEDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{8E6BEB2F-09F0-4E9B-BF7F-3CAF05163626}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -76,6 +78,10 @@ Global
 		{620E5C72-2462-4C44-8ACF-A5FA36F5CEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{620E5C72-2462-4C44-8ACF-A5FA36F5CEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{620E5C72-2462-4C44-8ACF-A5FA36F5CEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E6BEB2F-09F0-4E9B-BF7F-3CAF05163626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E6BEB2F-09F0-4E9B-BF7F-3CAF05163626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E6BEB2F-09F0-4E9B-BF7F-3CAF05163626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E6BEB2F-09F0-4E9B-BF7F-3CAF05163626}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +98,7 @@ Global
 		{CA8DE9CE-495E-4AD3-97C7-D5991E13EB7D} = {DEED1AC3-881F-42E4-9659-88360AF300E9}
 		{8A1D6475-AB4E-4D71-9459-EFA1F18A8ECE} = {DEED1AC3-881F-42E4-9659-88360AF300E9}
 		{620E5C72-2462-4C44-8ACF-A5FA36F5CEDD} = {DEED1AC3-881F-42E4-9659-88360AF300E9}
+		{8E6BEB2F-09F0-4E9B-BF7F-3CAF05163626} = {DEED1AC3-881F-42E4-9659-88360AF300E9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {183EA057-FDCB-46BB-B91A-5959023C5A13}

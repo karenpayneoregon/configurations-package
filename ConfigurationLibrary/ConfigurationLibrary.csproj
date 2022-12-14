@@ -1,8 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<LangVersion>9.0</LangVersion>
-		<TargetFramework>net5.0</TargetFramework>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
 		<Description>Provides access to appsettings.json for connection strings for three environments, development, testing/staging and production.</Description>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Copyright>Karen Payne</Copyright>
@@ -12,7 +13,7 @@
 		<Company>Karen Payne</Company>
 		<AssemblyVersion>1.0.1.2</AssemblyVersion>
 		<FileVersion>1.0.1.2</FileVersion>
-		<Version>1.0.2</Version>
+		<Version>1.0.3</Version>
 		<PackageProjectUrl>https://github.com/karenpayneoregon/configurations-package/tree/master/ConfigurationLibrary</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/karenpayneoregon/configurations-package</RepositoryUrl>
 		<PackageTags>csharp;appsettings.json;ef-core</PackageTags>
@@ -24,11 +25,11 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="5.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="5.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="5.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="7.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="7.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="7.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
