@@ -86,6 +86,29 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 ```
 
 
+## Schemas
+
+Suppose there are one or more databases used often? Consider creating a schema, place the schema in GitHub repository than when editing an appsettings.json file, use the schema.
+
+Example schema
+
+https://github.com/karenpayneoregon/json-schemas/blob/master/connectionStrings1.json
+
+To use the schema above click the **raw** button, copy the link e.g.
+
+https://raw.githubusercontent.com/karenpayneoregon/json-schemas/master/connectionStrings1.json
+
+Open an appsettings.json file and add it to the schema text box.
+
+![schema bar](assets/schemaBar.png)
+
+- In this case the database enum section need your connection string
+- For ActiveEnvironment has available choices when done in Visual Studio.
+
+![choices](assets/active.png)
+
+
+
 
 
 
