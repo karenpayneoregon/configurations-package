@@ -37,6 +37,8 @@ public partial class Form1 : Form
         CustomersDataGridView.ExpandColumns();
         CustomersDataGridView.FixHeaders();
 
+        CustomersDataGridView.DataError += CustomersDataGridView_DataError;
+
         CustomersBindingNavigator.AboutItemButton.Click += AboutItemButton_Click;
         CustomersBindingNavigator.DeleteItemButton.Click += CustomersDelete_Click;
         CustomersBindingNavigator.AddItemButton.Click += CustomersAdd_Click;
@@ -47,6 +49,18 @@ public partial class Form1 : Form
 
         _customerBindingSource.ListChanged += _customerBindingSource_ListChanged;
 
+    }
+
+    private void CustomersDataGridView_DataError(object? sender, DataGridViewDataErrorEventArgs e)
+    {
+        /*
+         * Gender column is prone to user entering an invalid value, if so cancel
+         * For a real application, Gender would be a combobox column.
+         */
+        if (CustomersDataGridView.Columns[e.ColumnIndex].DataPropertyName == nameof(Gender))
+        {
+            e.Cancel = false;
+        }
     }
 
     /*
