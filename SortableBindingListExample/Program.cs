@@ -1,4 +1,4 @@
-namespace WinFormsApp1;
+namespace SortableBindingListExample;
 
 internal static class Program
 {

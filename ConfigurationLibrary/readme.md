@@ -9,6 +9,8 @@ In the configuration file, `ActiveEnvironment` points to the environment to conn
 
 Well someone may say I only have one database server. Then set the environment to any of the environments than if at a later time more servers are available you are ready.
 
+11-19-2023 changed to release mode
+
 ---
 
 Simple example for obtaining connection strings.

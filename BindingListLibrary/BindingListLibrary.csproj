@@ -3,23 +3,31 @@
   <PropertyGroup>
 	  <!--<LangVersion>9.0</LangVersion>
 	  <TargetFramework>net5.0-windows</TargetFramework>-->
-	  <TargetFramework>net7.0-windows</TargetFramework>
+	  <TargetFramework>net8.0-windows8.0</TargetFramework>
 	  <ImplicitUsings>enable</ImplicitUsings>
 	  <Nullable>disable</Nullable>
 	  <UseWindowsForms>true</UseWindowsForms>
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 	  <Authors>Karen Payne</Authors>
-	  <Description>Provides a BindingList with AddRange method</Description>
+	  <Description>Provides a BindingList with AddRange method and a sortable BindingList</Description>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
-	  <Copyright>Karen Payne 2022</Copyright>
+	  <Copyright>Karen Payne 2024</Copyright>
 	  <RepositoryUrl>https://github.com/karenpayneoregon/configurations-package</RepositoryUrl>
 	  <PackageIcon>BindingListAdd.png</PackageIcon>
 	  <PackageIconUrl />
 	  <PackageProjectUrl>https://github.com/karenpayneoregon/configurations-package/tree/master/BindingListLibrary</PackageProjectUrl>
+	  <AssemblyVersion>1.0.0.1</AssemblyVersion>
+	  <FileVersion>1.0.0.1</FileVersion>
+	  <PackageReadmeFile>readme.md</PackageReadmeFile>
+	  <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\SortableBindingListExample\readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="assets\BindingListAdd.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
