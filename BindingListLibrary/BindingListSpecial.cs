@@ -8,7 +8,7 @@ namespace BindingListLibrary
     {
         private readonly List<T> _baseList;
 
-        public BindingListSpecial() : this(new List<T>()) { }
+        public BindingListSpecial() : this([]) { }
 
         public BindingListSpecial(List<T> baseList) : base(baseList)
         {
@@ -40,7 +40,9 @@ namespace BindingListLibrary
             {
                 RaiseListChangedEvents = restore;
                 if (RaiseListChangedEvents)
+                {
                     ResetBindings();
+                }
             }
         }
     }
